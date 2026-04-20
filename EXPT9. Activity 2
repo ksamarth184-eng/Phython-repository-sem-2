@@ -1,0 +1,6 @@
+from datetime import datetime
+
+today = datetime.today()
+formatted_date = today.strftime("%A, %d %B %Y")
+
+print("Today's Date:", formatted_date)
